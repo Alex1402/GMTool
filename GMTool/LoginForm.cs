@@ -11,6 +11,10 @@ namespace GMTool
 {
     public partial class LoginForm : Form
     {
+        public string m_UserName;
+
+        public string m_Password;
+
         public LoginForm()
         {
             InitializeComponent();
@@ -18,7 +22,8 @@ namespace GMTool
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-
+            m_UserName = UserNameBox.Text;
+            m_Password = PasswordBox.Text;
         }
     }
 }

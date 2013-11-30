@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.UseNameBox = new System.Windows.Forms.TextBox();
+            this.UserNameBox = new System.Windows.Forms.TextBox();
             this.PasswordBox = new System.Windows.Forms.TextBox();
             this.LoginButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -53,12 +53,12 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "密码：";
             // 
-            // UseNameBox
+            // UserNameBox
             // 
-            this.UseNameBox.Location = new System.Drawing.Point(97, 41);
-            this.UseNameBox.Name = "UseNameBox";
-            this.UseNameBox.Size = new System.Drawing.Size(144, 21);
-            this.UseNameBox.TabIndex = 0;
+            this.UserNameBox.Location = new System.Drawing.Point(97, 41);
+            this.UserNameBox.Name = "UserNameBox";
+            this.UserNameBox.Size = new System.Drawing.Size(144, 21);
+            this.UserNameBox.TabIndex = 0;
             // 
             // PasswordBox
             // 
@@ -85,7 +85,7 @@
             this.ClientSize = new System.Drawing.Size(299, 182);
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.PasswordBox);
-            this.Controls.Add(this.UseNameBox);
+            this.Controls.Add(this.UserNameBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
@@ -101,7 +101,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox UseNameBox;
+        private System.Windows.Forms.TextBox UserNameBox;
         private System.Windows.Forms.TextBox PasswordBox;
         private System.Windows.Forms.Button LoginButton;
     }
